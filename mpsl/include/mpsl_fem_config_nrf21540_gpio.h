@@ -75,6 +75,9 @@ typedef struct
  */
 int32_t mpsl_fem_nrf21540_gpio_interface_config_set(mpsl_fem_nrf21540_gpio_interface_config_t const * const p_config);
 
+// CUSTOM Ape Labs
+extern mpsl_fem_nrf21540_gpio_interface_config_t current_mpsl_fem_nrf21540_gpio_config;
+
 #ifdef __cplusplus
 }
 #endif
